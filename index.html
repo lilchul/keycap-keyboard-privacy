@@ -3,57 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
-  <title>개인정보처리방침 | KeyCap Keyboard</title>
-  <meta name="description" content="KeyCap Keyboard의 개인정보처리방침 초안입니다.">
+  <meta name="color-scheme" content="light dark">
+  <title>Keymew 개인정보처리방침</title>
+  <meta name="description" content="Keymew가 키보드 입력을 기기에서 처리하는 방법, 선택적 앱 분석과 다운로드에 사용하는 정보, 동의 철회 및 문의 방법을 안내합니다.">
   <style>
-    :root { font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; color: #29263a; background: #f8f7fd; line-height: 1.7; }
+    :root { color-scheme: light dark; font: 17px/1.75 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; background: #fffbf5; color: #282535; }
     * { box-sizing: border-box; }
     body { margin: 0; }
-    main { max-width: 760px; margin: 0 auto; padding: 56px 22px 80px; }
-    .brand { color: #6255bd; font-size: .85rem; font-weight: 700; letter-spacing: .08em; }
-    h1 { margin: 8px 0 20px; font-size: clamp(1.9rem, 7vw, 2.65rem); line-height: 1.25; }
-    h2 { margin: 38px 0 10px; font-size: 1.25rem; }
-    p, ul { margin: 10px 0; }
-    ul { padding-left: 1.4em; }
-    .notice { background: #fff8de; border: 1px solid #e8d896; border-radius: 14px; padding: 16px 18px; }
-    .notice strong { display: block; margin-bottom: 4px; }
-    .muted { color: #5c586d; }
-    a { color: #5040ab; overflow-wrap: anywhere; }
-    footer { margin-top: 44px; border-top: 1px solid #dedbe9; padding-top: 18px; color: #686477; font-size: .9rem; }
+    main { max-width: 44rem; margin: auto; padding: 3rem 1.3rem; }
+    h1, h2 { line-height: 1.35; text-wrap: balance; }
+    h1 { font-size: clamp(1.8rem, 5vw, 2.5rem); margin: 0; }
+    h2 { font-size: 1.3rem; margin: 2.3rem 0 .6rem; }
+    p { margin: .6rem 0; }
+    ul { padding-inline-start: 1.4rem; }
+    li + li { margin-top: .4rem; }
+    a { color: #4c4099; overflow-wrap: anywhere; }
+    @media (prefers-color-scheme: dark) { :root { background: #201e25; color: #f1eaf5; } a { color: #c8b9ff; } }
   </style>
 </head>
 <body>
 <main>
-  <div class="brand">KEYCAP KEYBOARD</div>
-  <h1>개인정보처리방침</h1>
-  <div class="notice" role="note">
-    <strong>출시 전 초안</strong>
-    운영자 이름, 시행일과 삭제 요청 처리 절차는 아직 정해지지 않았습니다. 이 문서는 내용을 검토하기 위한 초안이며, 앱 출시 전 확정될 예정입니다.
-  </div>
+  <h1>Keymew 개인정보처리방침</h1>
+  <p>시행일 <time datetime="2026-11-06">2026년 11월 6일</time></p>
+  <p>Keymew는 글자 조합과 커서 이동을 기기에서 처리합니다. 키보드로 입력한 문장이나 클립보드 내용은 Keymew의 서버 또는 분석 서비스로 보내지 않습니다.</p>
 
-  <h2>1. 운영자 및 문의</h2>
-  <p>운영자 이름은 확정 후 이 페이지에 안내합니다. 개인정보 관련 문의: <a href="mailto:guishinexpert@gmail.com">guishinexpert@gmail.com</a></p>
+  <h2>키보드와 기기에 저장되는 정보</h2>
+  <p>다른 앱에서 Keymew로 입력할 때 키보드는 글자를 조합하거나 커서를 옮기기 위해 입력 위치 주변의 글자를 읽을 수 있습니다. 사용자가 직접 저장한 문구·이모티콘·저장함 항목과 키보드 설정은 기기에 보관합니다. 저장한 항목은 앱에서 직접 삭제할 수 있습니다.</p>
 
-  <h2>2. 키보드 입력과 기기 내 저장</h2>
-  <p>KeyCap Keyboard는 일반적인 키보드 입력 내용을 기록하거나 전송하지 않습니다. 사용자가 직접 저장한 문구, 이모티콘 및 저장함 항목과 키보드 설정은 기기에 보관됩니다. 저장한 항목은 앱의 도구 설정에서 삭제할 수 있습니다.</p>
-  <p>키보드 확장은 입력 내용을 Google Analytics로 전송하지 않습니다. 다른 앱에서 입력할 때 조합과 커서 이동을 위해 주변 문맥을 사용할 수 있으며, 이를 일반 입력 기록으로 저장하거나 분석 이벤트로 전송하지 않습니다.</p>
+  <h2>선택할 수 있는 앱 사용 분석</h2>
+  <p>앱 사용 분석은 기본적으로 꺼져 있습니다. 동의하면 Keymew 본체 앱에서 Google Analytics for Firebase를 시작합니다. 키보드 확장에는 분석 SDK가 없습니다. 동의를 거절해도 테마와 키보드를 이용할 수 있습니다.</p>
+  <ul>
+    <li><strong>테마와 기능 개선.</strong> 어떤 테마를 미리 보고 적용했는지, 어떤 분류와 화면을 열었는지, 소리 미리듣기가 어느 단계에서 실패했는지 등을 Google에 전송합니다. 검색어와 저장 문구의 내용은 이벤트에 포함하지 않습니다.</li>
+    <li><strong>이용 환경 파악.</strong> Google은 앱 설치별 식별자, 앱과 운영체제 버전, 기기 정보, 세션 정보, 네트워크 접속에서 추정한 대략적인 지역을 처리합니다. 같은 설치에서 발생한 이벤트를 서로 연결할 수 있습니다. 정밀 위치나 광고 식별자(IDFA)는 수집하지 않으며, 이 데이터를 광고나 다른 회사의 앱·웹사이트에 걸친 추적에 사용하지 않습니다.</li>
+    <li><strong>보관 기간.</strong> Google Analytics의 사용자별·이벤트별 데이터 보관 기간은 2개월이며 새 활동이 있어도 기간을 연장하지 않도록 설정했습니다. 이 기간은 전체 이용 횟수와 같은 집계 보고서에는 적용되지 않습니다. <a href="https://support.google.com/analytics/answer/7667196?hl=ko">Google의 보관 기간 안내</a></li>
+  </ul>
+  <p><strong>동의를 철회하려면</strong> Keymew 앱의 설정에서 ‘앱 사용 분석 공유’를 끄세요. 이후 분석 수집을 중단하고 기기에 있는 분석 상태를 초기화합니다. 이미 전송한 데이터의 삭제를 원하시면 아래 연락처로 요청할 수 있습니다.</p>
 
-  <h2>3. 선택적 앱 사용 분석</h2>
-  <p>사용자가 동의하면 Google Analytics for Firebase를 이용해 테마 탐색과 선택, 소리 미리듣기 및 앱 화면 이용 현황을 분석합니다. 앱 인스턴스 식별자, 앱·운영체제 버전, 기기 정보, Google이 네트워크 정보를 통해 산출하는 대략적인 지역 정보와 이용 이벤트가 Google에 전달될 수 있습니다. 정밀 위치 권한은 사용하지 않습니다.</p>
-  <p>입력 문자, 검색어, 클립보드 내용, 저장한 문구 내용 및 다른 앱에서의 키보드 사용 내용은 분석 이벤트에 포함하지 않습니다. 분석 데이터는 광고 목적으로 사용하지 않습니다. 동의하지 않아도 앱의 모든 기능을 사용할 수 있습니다.</p>
-  <p>앱 설정의 <strong>앱 사용 분석 공유</strong>에서 언제든 동의를 변경할 수 있습니다. 동의를 철회하면 이후 수집이 중단되고 기기의 분석 상태가 초기화됩니다. 이미 전송된 데이터가 서버에서 즉시 삭제되는 것은 아닙니다.</p>
+  <h2>테마·사전·미리보기 다운로드</h2>
+  <p>무료 테마 6개는 앱에 포함됩니다. 추가 테마나 언어 데이터를 받을 때, 또는 갤러리에서 미리보기 이미지가 화면에 나타날 때 앱이 Cloudflare에 해당 파일을 요청합니다. 이 과정에서 요청한 리소스의 경로·식별자와 버전, 접속 IP 주소가 처리됩니다. 키보드 입력 내용이나 구매 영수증은 파일 요청에 포함되지 않습니다.</p>
+  <p>테마·언어 데이터의 다운로드 요청에는 IP별 요청 횟수 제한을 적용해 서비스 남용을 방지합니다. Keymew는 테마 파일과 미리보기 이미지를 저장한 두 버킷 모두에서 개별 파일 접근 기록(Data Access Logs)을 꺼 두었으며, 요청 로그를 외부로 내보내는 Logpush 작업도 사용하지 않습니다. Cloudflare가 자체 네트워크 운영과 보안을 위해 처리하는 정보에는 <a href="https://www.cloudflare.com/ko-kr/privacypolicy/">Cloudflare 개인정보처리방침</a>이 적용됩니다.</p>
+  <p>받은 테마와 언어 데이터는 기기에 보관하며 앱 설정의 ‘다운로드 관리’에서 삭제할 수 있습니다. 미리보기 이미지는 다시 내려받는 일을 줄이기 위해 기기에 임시 저장됩니다.</p>
 
-  <h2>4. 보관과 삭제</h2>
-  <p>기기에 직접 저장한 항목과 설정은 사용자가 해당 항목 또는 앱과 관련 데이터를 삭제할 때까지 기기에 보관될 수 있습니다. 분석 이벤트 및 사용자 데이터의 보관 기간은 2개월로 설정되어 있습니다. 이 기간이 모든 집계 보고서의 즉시 삭제를 뜻하지는 않습니다.</p>
-  <p class="muted">이미 전송된 분석 데이터에 대한 삭제는 위 이메일로 문의할 수 있습니다. 요청 처리 절차는 확정 후 이 페이지에 안내합니다.</p>
+  <h2>프리미엄 구매와 복원</h2>
+  <p>결제와 구독은 Apple이 처리합니다. Keymew는 구매 복원과 유료 테마 사용 여부를 확인하기 위해 Apple의 거래 정보를 검증하고, 상품 종류·이용 만료일·확인 시각 등을 기기에 저장해 키보드와 공유합니다. Keymew 운영자는 카드 번호나 결제 수단 정보를 받지 않습니다. <a href="https://www.apple.com/kr/legal/privacy/">Apple 개인정보 처리방침</a></p>
 
-  <h2>5. 제3자 제공 및 국외 처리</h2>
-  <p>선택적 앱 사용 분석을 위해 위의 분석 정보가 Google에 전달됩니다. Google의 처리 방식, 데이터가 처리되는 국가와 적용되는 보호 조치는 출시 전에 확인하여 이 페이지에 보완합니다.</p>
+  <h2>외부 서비스와 국외 처리</h2>
+  <p>Google LLC는 분석에 동의한 후 앱을 사용할 때 위 분석 정보를, Cloudflare, Inc.는 파일을 요청할 때 위 다운로드 정보를 네트워크를 통해 처리합니다. 각 서비스는 미국을 포함해 서버를 운영하는 국가에서 데이터를 처리할 수 있습니다. 분석 전송은 앱 설정에서 끌 수 있습니다. 다운로드 정보는 해당 온라인 파일을 제공하기 위해 처리합니다. <a href="https://firebase.google.com/support/privacy?hl=ko">Firebase 개인정보 보호 및 보안</a> · <a href="https://www.cloudflare.com/ko-kr/privacypolicy/">Cloudflare 개인정보처리방침</a></p>
+  <p>이 방침과 고객 지원 페이지는 GitHub Pages에서 제공합니다. 페이지를 열면 GitHub가 보안을 위해 방문자의 IP 주소를 기록합니다. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages의 방문 정보 처리</a></p>
 
-  <h2>6. 정책 변경</h2>
-  <p>정책 변경의 통지 방법과 시행일은 확정 후 안내합니다.</p>
-  <footer>KeyCap Keyboard · 개인정보처리방침 초안</footer>
+  <h2>개인정보 문의와 권리 행사</h2>
+  <p>개인정보 열람·정정·삭제 또는 처리 정지를 원하시면 Keymew 운영자(pak chul)에게 <a href="mailto:guishinexpert@gmail.com">guishinexpert@gmail.com</a>으로 요청해 주세요. 문의 시 보내신 이메일 주소와 내용은 요청을 확인하고 답변하는 데 사용합니다. 분석 기록에는 이름이나 이메일을 붙이지 않으므로, 이메일 주소만으로 특정 설치의 기록을 찾기 어려울 수 있습니다. 요청을 받으면 확인 가능한 범위와 처리 결과를 안내합니다.</p>
+  <p>방침을 변경할 때는 이 페이지에 변경 내용과 시행일을 안내합니다. <a href="./support/">Keymew 고객 지원</a></p>
 </main>
 </body>
 </html>
