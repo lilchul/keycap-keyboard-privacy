@@ -25,7 +25,7 @@
 <main>
   <nav aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a></nav>
   <h1>Keymew Privacy Policy</h1>
-  <p>Effective <time datetime="2026-11-06">November 6, 2026</time></p>
+  <p>Effective <time datetime="2026-11-06">November 6, 2026</time> · Last updated <time datetime="2026-11-07">November 7, 2026</time></p>
   <p>Keymew processes text composition and cursor movement on your device. Keymew does not send text you type with the keyboard or clipboard content to its servers or analytics services.</p>
 
   <h2>Keyboard and information stored on your device</h2>
@@ -42,7 +42,7 @@
 
   <h2>Theme, dictionary and preview downloads</h2>
   <p>Six free themes are included in the app. When you download additional themes or language data, or when preview images appear in the gallery, the app requests those files from Cloudflare. The requested resource path, identifier and version, and your connection's IP address are processed. Keyboard input and purchase receipts are not included in file requests.</p>
-  <p>Requests for theme and language data are rate-limited by IP address to prevent abuse. Keymew has disabled individual file access logging (Data Access Logs) for both the theme-file and preview-image buckets and does not use Logpush to export request logs. Information Cloudflare processes for its own network operations and security is governed by the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>.</p>
+  <p>Requests for theme and language data are rate-limited by IP address to prevent abuse. Theme and language data are served from Cloudflare R2, and preview images in the current app are served from Cloudflare Pages. Earlier app versions may receive preview images from Cloudflare R2. Keymew has disabled individual file access logging (Data Access Logs) for the R2 buckets used for theme files and earlier preview images, and does not use Logpush to export request logs. Information Cloudflare processes for its own network operations and security is governed by the <a href="https://www.cloudflare.com/privacypolicy/">Cloudflare Privacy Policy</a>.</p>
   <p>Downloaded themes and language data are stored on your device and can be deleted under “Manage downloads” in the app's settings. Preview images are cached temporarily on the device to reduce repeated downloads.</p>
 
   <h2>Premium purchases and restoration</h2>
